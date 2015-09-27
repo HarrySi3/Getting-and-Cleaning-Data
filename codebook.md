@@ -120,3 +120,4 @@ column number |	column name
 530 |	fBodyBodyGyroMag-std()
 542 |	fBodyBodyGyroJerkMag-mean()
 543 |	fBodyBodyGyroJerkMag-std()
+
