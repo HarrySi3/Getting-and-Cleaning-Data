@@ -26,3 +26,4 @@ source('run_analysis.R')
 The end result will be a file called `tidy_dataset.txt'`.
 
 Each row in the final, clean dataset contains _subject_, _activity_, and _measures_ for all required features (i.e., mean or standard deviation).
+
