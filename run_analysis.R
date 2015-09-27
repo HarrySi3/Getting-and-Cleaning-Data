@@ -1,8 +1,9 @@
 
-## Data from "Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine".
-## International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+# The data is from "Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine".
+# International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-## This script merges data from a number of .txt files and produces a tidy data set 
+# This script merges data from a number of .txt files and produces a tidy data set 
+
 
 # Merge the subject training and the test sets to create one data set.
 
@@ -31,7 +32,7 @@ X_dataset <- make_X_dataset()
 y_dataset <- make_y_dataset()
 
 
-# Extract only the measurements on the mean and standard deviation for each measurement and drop other values. 
+# Extract only the measurements on the mean and standard deviation for each measurement and then drop other values. 
 
 selected_measurements <- function() {
   features <- read.table('./UCI HAR Dataset/features.txt', header=FALSE, col.names=c('id', 'name'))
